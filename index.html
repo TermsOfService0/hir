@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Ez itt a fejléc! (Banner) Ide kerülhet pld. a logó</header>
+    <nav>
+        <h2>
+            Kiemelt rovatok
+        </h2>
+        <ul>
+            <li><a href="#Belföld">Belföldi hírek</a></li>
+            <li><a href="#Tudomány">Tudomány és technika</a></li>
+            <li><a href="#Sport">Sport hírek</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Friss hírek</p>
+        <article>
+            <h2>Elfogyhatnak az AMD processzorok a boltokból egy új kriptovaluta miatt</h2>
+            <p>Ezúttal az AMD processzorai lehetnek azok, amik elfogyhatnak a boltokból, vagy legalábbis amik ára jelentős mértékben megemelkedhet - ezek ugyanis kifejezetten alkalmasak egy új kriptopénz kutatására, és emiatt elkapkodhatják azokat a bányászok.</p>
+        </article>
+        <article>
+            <h2>Veszélyes vírusra figyelmeztetik az androidos felhasználókat</h2>
+            <p>Az AppGallery-ben fellelhető appokban a Cynos nevű malware módosított változatát, az Android.Cynos.7.origint találták meg, és elsősorban angolul, oroszul, kínaiul beszélő felhasználókat céloznak velük a rosszakarók, hogy ellopják érzékeny adataikat.
+                <br>
+                Miután a szakértők értesítették a Huaweit, az appokat azóta eltávolították az alkalmazásbolt kínálatából, ám még megtalálhatóak lehetnek a felhasználók készülein. Érdemes tehát törölni a szoftvereket, ha letöltötte volna bármelyiket.</p>
+        </article>
+        <section id="Belföld">
+            <p>Belföldi hírek</p>
+
+            <article>
+                <h2>Lopott flexszel lopott biciklit egy férfi a IX. kerületben</h2>
+                <p>
+                        A ferencvárosi rendőrök gyorsan elfogták a férfit, aki a gyanú szerint egy IX. kerületi bevásárlóközpontban lopott sarokcsiszolóval vágta le a lakatot egy kerékpárról.
+                </p>
+                <p>
+                        A Budapesti Rendőr-főkapitányság lopás bűntett és más bűncselekmények megalapozott gyanújával folytat eljárást H. Flórián ellen. A 42 éves nyíregyházi férfi szerda este egy IX. kerületi bevásárlóközpontban ellopott egy flexet, amit egy ott dolgozó munkás tett le.
+                </p>
+                <p>
+                        Ezután az áruház bejáratánál a leflexelte a lakatot egy bicikliről, amivel aztán elhajtott. Korábban a bevásárlóközpont parkolójában egy autóról lefeszítette a márkajelzéseket, amiket szintén magával vitt. A ferencvárosi rendőrök két órán belül elfogták Flóriánt, akinél megtalálták az emblémákat és sarokcsiszolót.
+                </p>
+                <p>
+                        H. Flóriánt a rendőrök egyrendbeli lopás bűntett, valamint kétrendbeli lopás vétség gyanúja miatt gyanúsítottként hallgatták ki, majd őrizetbe vették, és kezdeményezték előzetes letartóztatását. <a href="http://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/bunugyek/lopott-hogy-lophasson">(police.hu)</a>
+                </p>
+                <p>Forrás: <a href="https://news.google.com/articles/CAIiEJ5CqPTSmBe1uP7c6fu4EUkqGAgEKg8IACoHCAowycfTATD69zUwzuecAg?uo=CAUiU2h0dHBzOi8vNDQ0Lmh1LzIwMjEvMTEvMjYvbG9wb3R0LWZsZXhzemVsLWxvcG90dC1iaWNpa2xpdC1lZ3ktZmVyZmktYS1peC1rZXJ1bGV0YmVu0gEA&hl=hu&gl=HU&ceid=HU%3Ahu">www.444.hu</a></p>
+            </article>
+
+            <article>
+                <h2>Ügyészség: Kósa Lajos nem mondott igazat a Pegasus-ügyben</h2>
+                <p>Nem mondott igazat Kósa Lajos, amikor azt állította, hogy a Belügyminisztérium vásárolta a Pegasus-kémszoftvert, így nem követett el bűncselekményt, amikor erről beszélt nyilvánosan – derült ki abból a feljelentést elutasító határozatból, amelyet a Budapesti Regionális Nyomozó Ügyészség adott ki.</p>
+                <p>A feljelentést még november elején tették minősített adattal való visszaélés, valamint hivatali visszaélés bűntette miatt azután, hogy a fideszes politikus az Országgyűlés honvédelmi és rendészeti bizottságának ülése után arról nyilatkozott újságíróknak, hogy a Belügyminisztérium vette azt a szoftvert, amellyel többek között újságírókat és közéleti személyiségeket figyeltek meg.</p>
+                <p>A feljelentés elutasításának indokolásából kiderül, az ügyészség hivatalos tudomással bír arról, hogy a Belügyminisztérium Pegasus néven nem vásárolt szoftvert. Mint írták, a fent említett bűncselekményt minősített adatra lehet elkövetni, „a feljelentés – a feljelentő feltételezésén túl – ugyanakkor nem tartalmaz olyan körülményre vonatkozó konkrét adatot, tényt, amely az általa kifogásoltak szerint azt támasztaná alá, hogy a feljelentéssel érintett személy minősített adatot tett volna jogosulatlan személyek részére hozzáférhetővé”.</p>
+                <p>"Kósa Lajos országgyűlési képviselő nyilatkozatában ugyanis konkrét adatnak az tekinthető, hogy igennel válaszolt arra a kérdésre, miszerint a Belügyminisztérium beszerzője volt a Pegasus-szoftvernek. Az, hogy a Belügyminisztérium megvásárolta a Pegasus-szoftvert – a feljelentés-kiegészítés során beszerzett adatok alapján – tényszerűen nem felel meg a valóságnak, így ez a valóságnak meg nem felelő adat nem minősülhet minősített adatnak, vagyis a nyilatkozat ezen részében a minősített adattal visszaélés bűncselekményének elkövetése kizárt," -írta az ügyészség.</p>
+                <p>Forrás: <a href="https://24.hu/belfold/2021/11/25/kosa-lajos-pegasus-ugyeszseg-minositett-adat-belugyminiszterium/">www.24.hu</a></p>
+            </article>
+        </section>
+
+        <section id="Tudomány">
+            <p>Tudomány és technika</p>
+            <article>
+                <h2>Tíz éven belül dobhatja az Apple az iPhone-okat</h2>
+                <p>A belsős körökben mozgó hírhedt Apple-jós, Ming-Csi Kuo szerint a cupertinói cég 2022-ben dobhatja piacra első kiterjesztettvalóság-eszközét, amivel egy új korszak veszi kezdetét – <a href="https://9to5mac.com/2021/11/25/kuo-apple-plans-to-replace-the-iphone-with-ar-in-10-years/">írja</a> a 9to5mac. Még ennél is meredekebb, hogy az elemző szerint még körülbelül egy évtizedig lesznek új iPhone-ok, utána az Apple az okostelefonokat kiterjesztettvalóság-eszközökre váltaná le.</p>
+                <p>Ugyan az Apple minden idők egyik legértékesebb vállalata, Tim Cook tudja, hogy nem támaszkodhatnak egy termékre, így látható az is, hogy egyre erősebben fekszik rá a cég a szolgáltatásokra a hardverek és szoftverek mellett. Jelenleg az iPhone telefonokból származik az Apple bevételének fele.</p>
+                <p>Kuo szerint az Apple jövője nagyban függ majd az AR-headsetektől, a célkitűzés az lehet, hogy a technológia tíz éven belül átvegye az iPhone helyét. Az még kérdéses, hogy az Apple headset eszközének első generációja (ami várhatóan egy okosszemüveg lesz) működik-e csatlakoztatott iPhone nélkül, vagy egy standalone kütyü lesz, de nagyban meghatározza majd, mennyire lesz sikeres. Ha egy Machez, vagy iPhone-hoz szánt kiegészítőként pozicionálják, az nem kedvezhet a termék növekedésének. Amennyiben egy önállóan működő termék lesz, azt engedi feltételezni, hogy saját ökoszisztéma is épül köré, ami rugalmas felhasználói élményt jelent.</p>
+                <p>Az elemző hozzáteszi: ha a techóriás komolyan tervezi a hatalmas váltást, az AR-eszközökből legalább egymilliárd darabot kell eladni tíz éven belül, mivel több mint egymilliárd aktív iPhone-felhasználó van jelenleg a világon.</p>
+                <p>Forrás: <a href="https://24.hu/tech/2021/11/26/apple-ming-chi-kuo-ar-headset-kiterjesztett-valosag-iphone/">www.24.hu</a></p>
+            </article>
+            <article>
+                <h2>Már decemberben bejelentik a Xiaomi 12 szériát</h2>
+                <p>Tavaly a még Mi 11-es széria bejelentését a Xiaomi a Samsung Galaxy S21-eket megelőzve tartotta. Úgy fest, hogy idén is ez lesz a helyzet, mert a Xiaomi 12-es sorozat minden jel szerint decemberi bemutatót kap (Kínában), míg a Samsung csak februárban jelenti be a Galaxy S22-t. Más kérdés, hogy mire a kínai bejelentés után Európába is megjönnek a Xiaomi újdonságai, addigra a koreai versenytárs is jó eséllyel piacra tudja dobni a jövő évi csúcsmodell. Az elmúlt hetekben sok információmorzsa gyűlt össze a Xiaomi 12-ről, ezeket szedtük most össze.</p>
+                <p>Ha minden stimmel, akkor három modellel érkezik a Xiaomi legújabb szériája, a sokak által használt Lite megnevezés helyett ezúttal a legkedvezőbb árú változat 12X néven fog érkezni, természetesen lesz egy sima Xiaomi 12, a csúcson pedig az Ultra utótagú modell üldögélhet. Jelen pillanatban úgy hírlik, hogy mindhárom telefon hajlított kijelzőt kap majd, még a legolcsóbb 12X-ben is ilyen megjelenítőre számít a szakma.</p>
+                <p>A 12X lehet a trió legkisebb tagja 6,28 inches kijelzővel, Qualcomm Snapdragon 870-es chipsettel és 50 megapixeles főkamerával, ez leginkább a jelenlegi Mi 11 Lite 5G NE helyét veheti át relatív kompakt méretével és a csúcskategóriás hardver alatt egy lépcsővel kikönnyített belső komponenseivel. Szimmetrikus sztereó hangszórókról lehet hallani, valószínűleg 65 wattos gyorstöltési megoldással érkezik, ez lehet a széria legkelendőbb tagja, hiszen nem óriási méretű, mégis a legtöbb felhasználó számára bőven elegendő tudást kínál majd, a kérdés csupán az árazás.</p>
+                <p>A sima Xiaomi 12 szintén hajlított OLED kijelzővel jön, de a felbontás itt még mindig csak Full HD, a frissítési ráta pedig 120 Hz. Ebben a modellben is 50 megapixeles főkamerára lehet számítani, viszont már az új generációs Snapdragon csúcslapka kerül bele (korábban 898-nak, mostanság már Snapdragon 8 Gen 1-nek nevezzük), a hírek szerint növelik a kijelző mögötti ujjlenyomat-olvasó szenzor méretét, a töltés pedig 100 wattos sebességgel is opció.</p>
+                <p>A csúcson a Xiaomi 12 Ultra ül majd, amely hardveresen a sima Xiaom 12-t követi, kamerás fronton viszont szolgál majd meglepetésekkel. Esélyesebb, hogy a Samsung 50 megapixeles GN5-ös szenzora lesz a főkamera mögött, noha a koreai gyártó 200 megapixeles új fejlesztésének megjelenéséről is pletykálnak, de azt maga a Samsung is csak 2023-ban kezdi el használni. Ezen kívül még három darab 48 megapixeles szenzor kerülhet hátra, ebből egy az ultraszéles látószöget támogatja, a másik kettő pedig kétféle zoomtartományt testesít meg, hogy ne csak háromszoros, hanem tízszeres nagyítást is natívan érhessünk el, hibrid megoldással pedig akár 100-szoros zoom is összehozható - bár ennek a minősége nyilván nem lesz tökéletes.</p>
+                <p>A bónusz pedig az, hogy a hírek szerint a Huawei és a Leica együttműködésének kvázi vége, ezért a Xiaomi lecsapott a lehetőségre és elhappolta a Leicát, magyarán nincs kizárva, hogy a 12 Ultra hátulján már ott virít majd a felirat, más kérdés, hogy nem tudni, hogy ezen kívül a Leica mit tesz hozzá a Xiaomi fotós eszköztárához. Mindenesetre a komplett és végleges információkhoz már nem kell sokat aludni, ha valóban decemberben megtörténik a hivatalos bemutató, az már itt van a nyakunkon.</p>
+                <p>Forrás: <a href="https://mobilarena.hu/hir/mar_decemberben_bejelentik_a_xiaomi_12_szeriat.html">www.mobilarena.hu</a></p>
+            </article>
+        </section>
+
+        <section id="Sport">
+            <p>Sport hírek</p>
+            <article>
+                <h2>Vereséggel úszott el Szalaiék továbbjutása az Európa Ligában</h2>
+                <p>A Szalai Attilát foglalkoztató Fenerbahce lemarad a továbbjutásról a labdarúgó Európa Ligában, mivel 1-0-s vereséget szenvedett az Olimpiakosz otthonában a csoportkör 5. fordulójában, írta az MTI. A magyar válogatott védő a 78. percben, gól nélküli állásnál csereként lépett pályára.</p>
+                <p>Sikerével a görög együttes és az éllovas Frankfurt is továbbjutónak vallhatja magát, akárcsak a B csoportban a Real Sociedadot legyőző AS Monaco.</p>
+                <p>A Galatasaray és a Lazio is biztosan továbblép az E csoportból, előbbi otthon verte 4-2-re az Olympique Marseille-t, utóbbi Moszkvában, a Lokomotiv vendégeként nyert 3-0-ra.</p>
+                <p>Az egyedüliként százszázalékos Lyon megőrizte hibátlan mérlegét: a szünet után egygólos hátrányba került, mégis győztesen távozott a Bröndby otthonából.</p>
+                <p>A csoportok első helyezettjei nyolcaddöntőbe jutnak, míg a másodikak a Bajnokok Ligája nyolc csoportharmadikjának egyikével játszanak a 16 közé kerülésért. Az EL-csoportharmadikok a Konferencia-liga egyenes kieséses szakaszában folytatják.</p>
+                <p>Forrás <a href="https://rangado.24.hu/nemzetkozi_foci/2021/11/25/europa-liga-szalai-attila-fenerbahce/">rangado.24.hu</a></p>
+            </article>
+            <article>
+                <h2>Egy éve ment el a félisten, Nápolyban két szobrot is kap</h2>
+                <p>2020. november 25-én hunyt el minden idők egyik legfantasztikusabb labdarúgója, Diego Armando Maradona. Az évfordulón Nápolyban két szobrot is avatnak a feledhetetlen 10-es tiszteletére. Ugyanakkor változatlan erővel folyik a marakodás a hagyatékra ácsingózók között.</p>
+                <a href="https://index.hu/sport/2021/11/25/egy-eve-ment-el-a-felisten-napolyban-ket-szobrot-is-kap/">Teljes cikk</a>
+            </article>
+        </section>
+
+    </section>
+    <footer>
+       Szerkesztette: Takács Zoltán
+    </footer>
+</body>
+
+</html>
